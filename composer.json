@@ -1,0 +1,17 @@
+{
+    "require": {
+        "fluent/logger": "^1.0",
+        "google/cloud-bigquery": "^1.18",
+        "monolog/monolog": "^2.1",
+        "google/cloud-storage": "^1.23",
+        "pear/console_commandline": "^1.2",
+        "guzzlehttp/guzzle": "^7.3",
+        "guzzlehttp/psr7": "^2.1",
+        "nesbot/carbon": "^2.53.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Verify\\": "src/"
+        }
+    }
+}
