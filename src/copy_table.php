@@ -97,7 +97,7 @@ try {
 
   $currentTime = time();
   print_r(sprintf('[%s.%s] Copy Job finished.', $dataset, $table) . PHP_EOL);
-  print_r(sprintf('[s.%s] total time: %s', $dataset, $table, $currentTime - $startTime) . PHP_EOL);
+  print_r(sprintf('[%s.%s] total time: %s', $dataset, $table, $currentTime - $startTime) . PHP_EOL);
 } catch (\Exception $e) {
   var_export($e->getMessage());
 }
